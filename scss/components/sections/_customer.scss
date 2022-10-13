@@ -1,0 +1,71 @@
+#customer{
+      padding: 40px 0
+}
+
+.customer_heading{
+      h2{
+            @include heading_two;
+      }
+      p{
+            @include paragraph;
+            margin-top: 5px;
+      }
+}
+
+.item_customer{
+      border: 1px solid #EEEEEE;
+      padding: 45px 40px;
+      transition: .5s;
+      margin-top: 30px;
+      width: 97% !important;
+      .customer_review{
+            margin-top: 10px;
+            i{
+                  color: #FBBF25;
+            }
+      }
+      p{
+            @include paragraph;
+            margin-top: 8px;
+      }
+      h4{
+            @include heading_four;
+      }
+      h5{
+            @include heading_five;
+      }
+      .Vector{
+            margin-left: 250px;
+      }
+     
+     
+}
+
+#customer .slick-dots {
+      position: absolute;
+      left: 47%;
+      bottom: -50px;
+      li {
+            height: 15px;
+            width: 15px;
+            background: #E6E6E6;
+            border-radius: 50%;
+            margin: 10px auto;
+            margin-right: 5px;
+          }
+    }
+    
+    #customer .slick-dots button {
+      height: 15px;
+      width: 15px;
+      background: $hover_bg;
+      color: transparent;
+      text-align: center;
+      opacity: 0;
+    }
+    
+    #customer .slick-dots li.slick-active button {
+      opacity: 1;
+      background: $hover_bg;
+    }
+    

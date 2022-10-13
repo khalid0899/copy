@@ -1,0 +1,16 @@
+
+#header ul li a {
+      padding: 0 20px !important;
+      color:$header_ankor;
+      @include ankor_text;
+      &:hover{
+            color:$text_hover ;
+      }
+}
+.header_contact{
+      a{
+            background:$header_contactBg;
+            color:$color_white;
+            @include button_style;
+      }
+}

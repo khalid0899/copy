@@ -1,0 +1,54 @@
+#service{
+      padding: 40px 0;
+}
+.service_headeing{
+      h2{
+            @include heading_two;
+      }
+      p{
+            @include paragraph;
+      }
+}
+.service_work{
+      margin-top: 20px;
+      .service_item{
+            border: 1px solid #EEEEEE;
+           padding: 55px 30px;
+           transition: .5s;
+           margin-top: 30px;
+           .item_logo i{
+            border: 1px solid $border_color;
+            color:$text_hover;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 4px;
+            transition: .5s;
+           
+           }
+           .item_content{
+            h3{
+                  @include heading_three;
+                  margin-top: 20px;
+            }
+            p{
+                  @include paragraph;
+            }
+      }
+         &:hover{
+            box-shadow: 0px 3px 24px -3px rgba(0,0,0,0.75);
+      -webkit-box-shadow: 0px 3px 24px -3px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 3px 24px -3px rgba(0,0,0,0.75);
+      border: 1px solid transparent;
+         } 
+         &:hover i{
+            background:$hover_bg; 
+            color: $color_white;
+            border: 1px solid transparent;
+      } 
+      }
+      
+      
+}

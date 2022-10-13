@@ -1,0 +1,30 @@
+#banner{
+      background: $banner_bg;
+      padding: 80px 0;
+}
+.banner_content{
+      margin-top: 15px;
+      h1{
+            color: $color_white;
+            @include heading_one;
+      }
+      p{
+            @include paragraph;
+            color: $color_white;
+            margin-top: 20px;
+      }
+}
+.banner_button{
+      margin-top: 20px;
+      a{
+            background: $banner_buttonBg;
+            @include button_style;
+            color: $text_hover;
+            @include ankor_text;
+      }
+}
+.banner_img{
+      img{
+            height: 430px;
+      }
+}

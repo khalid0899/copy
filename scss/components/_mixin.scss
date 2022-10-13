@@ -1,0 +1,46 @@
+
+
+     /* start heading style
+      ========:::::::::=== */
+      @mixin heading_one {
+          font-size: 55px;  
+          font-weight: 700;
+      }
+
+      @mixin heading_two {
+            font-size: 36px;  
+            font-weight: 600;
+            color:#181818;
+        }
+        @mixin heading_three {
+            font-size: 22px;  
+            font-weight: 400;
+            color:#181818;
+        }
+        @mixin heading_four {
+            font-size: 20px;  
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        @mixin heading_five {
+            font-size: 16px;  
+            font-weight: 400;
+        }
+
+       /* end heading style
+      ========:::::::::=== */
+
+      @mixin ankor_text{
+            font-size: 18px;
+            font-weight: 500;
+      }
+      @mixin paragraph {
+            font-size: 18.5px;
+            font-weight: 400;
+            line-height: 27px;
+      }
+      @mixin button_style {
+           padding: 13px 22px; 
+           border-radius: 10px;
+      }
+    
